@@ -1,4 +1,7 @@
 # coding: utf-8
+import maya.standalone
+maya.standalone.initialize()
+
 import pytest
 
 # pytest -m run_mark0 と指定すると、以下のマークがされた関数のみ評価される
